@@ -81,3 +81,10 @@ To install Apache web server, open up Terminal and run the following commands ;
 
 ![Apache2 status](./Images/sudo%20status%20running.JPG)
 
+
+Web Server succssfully launched! :sunglasses:
+
+To enable Web Server to receive any traffic we need to open port HTTP port 80 by editing inbound rule by clicking on the instance > Security tabEC2 > Security>sg-0b43ccbb91eb6f08e (instance name)> edit inbound rules
+
+![Inbound rules](./Images/inbound%20rule%20port%2080%20tcp.JPG)
+
