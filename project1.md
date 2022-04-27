@@ -1,5 +1,5 @@
  ### DOCUMENTATION OF PROJECT - 1
- ### <center> WEB STACK IMPLEMENTATION (LAMP STACK) IN AWS</center> 
+ ## <center>WEB STACK IMPLEMENTATION (LAMP STACK) IN AWS</center> 
 
 
 1.Installed the following applications:
@@ -51,4 +51,4 @@ Copyied and pasted code into vsc terminal
 ![alt text](./Images/Ubuntu%20virtual%20server.JPG)
 
 
-### <center>INSTALLING APACHE AND UPDATING THE FIREWALL </center>
+## <center>INSTALLING APACHE AND UPDATING THE FIREWALL</center>
