@@ -84,7 +84,35 @@ To install Apache web server, open up Terminal and run the following commands ;
 
 Web Server succssfully launched! :sunglasses:
 
-To enable Web Server to receive any traffic we need to open port HTTP port 80 by editing inbound rule by clicking on the instance > Security tabEC2 > Security>sg-0b43ccbb91eb6f08e (instance name)> edit inbound rules
+To enable Web Server to receive any traffic we need to open port HTTP port 80 by editing inbound rule by clicking on the instance... EC2 --> Security-->sg-0b43ccbb91eb6f08e (instance name) -Firewall security group> edit inbound rules; click Add rule button
+
+Select Type "HTTP"  Protocol "TCP" Port range "80" and save rules.
 
 ![Inbound rules](./Images/inbound%20rule%20port%2080%20tcp.JPG)
+
+To check I can access my server locally, I ran the following commands in the Terminal 
+
+<code>curl http http://localhost:80</code>
+
+or
+
+<code>curl http://127.0.0.1:80</code>
+
+![Access test](./Images/local%20host.JPG)
+
+
+This confirms I can access server locally, now time to test my Apache HTTP server can respond to request from the internet. By typing my public address found on AWS Web console or by running <code>curl -s http://169.254.169.254/latest/meta-data/public-ipv4</code> command.
+
+![Public IP address](./Images/public%20address.JPG)
+
+Which is **54.147.140.31**
+
+Now to verify the Appache server is correctly installed, open a browser type in the Public IP address into the address bar http://54.147.140.31:80
+
+
+![My Appache Server](./Images/Apache%20server.JPG)
+
+This confirms Appache Server running ; currently installed and can be accessed through my firewall. :thumbsup:
+
+
 
