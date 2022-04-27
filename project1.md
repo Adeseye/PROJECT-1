@@ -1,6 +1,6 @@
  ### DOCUMENTATION OF PROJECT - 1
 
-1.Installed Microsoft Visual Studio Code
+1.Installed Microsoft Visual Studio Code; Windows Terminal and signed up on Git Hub
 
 2.Created a Git Hub account, updated profile
 ![git profile](./Images/updated%20github%20profile.JPG)
@@ -13,6 +13,19 @@
 
 ![alt text](./Images/copying%20git%20code.JPG)
 
-### Configuring Git hub account with MS VSC via Terminal
+5.Configuring Git hub account with MS VSC via Terminal
 
 ![alt text](./Images/git%20command%20profile%20setup.JPG)
+
+4.Ceated a AWS freetier account, completed the following task.
+
+*Lauched an instance -  Using Ubuntu Server 20.04LTS(HVM)
+![alt text](./Images/Launching%20an%20instance.JPG)
+*Connect to isntance via OpenSSH
+![alt text](./Images/Connect%20to%20instance.JPG)
+*Connected to Ubuntu Server via Windows Powershell using command
+
+<code>ssh -i "Keypair.pem" ubuntu@ec2-54-147-140-31.compute-1.amazonaws.com</code>
+![alt text](./Images/instances.JPG)
+* Praticed other linux commands, ran the <code> sudo apt get-update</code> to update the OS.
+![alt text](./Images/Ubuntu%20virtual%20server.JPG)
