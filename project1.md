@@ -23,6 +23,7 @@
 ![alt text](./Images/copying%20git%20code.JPG)
 
 Copyied and pasted code into vsc terminal
+
 ![alt text](./Images/git%20code.JPG)
 
 5.Configuring Git hub account with MS VSC via Terminal
