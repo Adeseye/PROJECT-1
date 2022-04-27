@@ -112,7 +112,7 @@ Now to verify the Appache server is correctly installed, open a browser type in 
 
 ![My Appache Server](./Images/Apache%20server.JPG)
 
-This confirms Appache Server running ; currently installed and can be accessed through my firewall. :thumbsup:
+This confirms Appache Server running ; correctly installed and can be accessed through my firewall. :thumbsup:
 
 
 
