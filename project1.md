@@ -34,8 +34,12 @@ Copyied and pasted code into vsc terminal
 
 *Launched an instance -  Using Ubuntu Server 20.04LTS(HVM)
 ![alt text](./Images/Launching%20an%20instance.JPG)
-*Connect to isntance via OpenSSH
+
+
+*Connected to instance via OpenSSH (SSH client)
+
 ![alt text](./Images/Connect%20to%20instance.JPG)
+
 *Connected to Ubuntu Server via Windows Powershell using command
 
 <code>ssh -i "Keypair.pem" ubuntu@ec2-54-147-140-31.compute-1.amazonaws.com</code>
