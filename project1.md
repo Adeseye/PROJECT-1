@@ -24,11 +24,17 @@
 
 ![alt text](./Images/copying%20git%20code.JPG)
 
-Copyied and pasted code into vsc terminal
+Copied and pasted code into vsc terminal
 
 ![alt text](./Images/git%20code.JPG)
 
-5.Configuring Git hub account with MS VSC via Terminal
+5.Configured Git hub account with MS VSC via Terminal - using the following commands in VSC terminal :
+
+<code>git add .</code>
+
+<code> git commit -m "Writting project-1" </code>
+
+<code>git push</code>
 
 ![alt text](./Images/git%20command%20profile%20setup.JPG)
 
