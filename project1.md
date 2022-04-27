@@ -32,7 +32,7 @@ Copyied and pasted code into vsc terminal
 
 4.Ceated a AWS freetier account, completed the following task. 
 
-*Lauched an instance -  Using Ubuntu Server 20.04LTS(HVM)
+*Launched an instance -  Using Ubuntu Server 20.04LTS(HVM)
 ![alt text](./Images/Launching%20an%20instance.JPG)
 *Connect to isntance via OpenSSH
 ![alt text](./Images/Connect%20to%20instance.JPG)
