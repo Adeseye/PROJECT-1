@@ -1,4 +1,5 @@
  ### DOCUMENTATION OF PROJECT - 1
+ ### WEB STACK IMPLEMENTATION (LAMP STACK) IN AWS
 
 1.Installed the following applications:
 
