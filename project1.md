@@ -1,6 +1,13 @@
  ### DOCUMENTATION OF PROJECT - 1
 
-1.Installed Microsoft Visual Studio Code; Windows Terminal and signed up on Git Hub
+1.Installed the following applications:
+
+*Microsoft Visual Studio Code  [Download](https://code.visualstudio.com/download)
+
+*git  [Download](https://git-scm.com/downloads)
+
+
+*Windows Terminal [Download](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-gb&gl=GB)
 
 2.Created a Git Hub account, updated profile
 ![git profile](./Images/updated%20github%20profile.JPG)
@@ -17,7 +24,7 @@
 
 ![alt text](./Images/git%20command%20profile%20setup.JPG)
 
-4.Ceated a AWS freetier account, completed the following task.
+4.Ceated a AWS freetier account, completed the following task. 
 
 *Lauched an instance -  Using Ubuntu Server 20.04LTS(HVM)
 ![alt text](./Images/Launching%20an%20instance.JPG)
