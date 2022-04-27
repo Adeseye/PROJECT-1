@@ -53,8 +53,31 @@ Copied and pasted code into vsc terminal
 <code>ssh -i "Keypair.pem" ubuntu@ec2-54-147-140-31.compute-1.amazonaws.com</code>
 ![alt text](./Images/instances.JPG)
 
-* Praticed other linux commands, ran the <code> sudo apt get-update</code> to update the OS.
+* Practiced other linux commands, ran the <code> sudo apt get-update</code> to update the OS.
 ![alt text](./Images/Ubuntu%20virtual%20server.JPG)
 
 
 ## <center>INSTALLING APACHE AND UPDATING THE FIREWALL</center>
+
+To install Apache web server, open up Terminal and run the following commands ;
+
+*First update a list of packages in the package manager
+
+<code> sudo apt update</code>
+
+![Updating package manager](./Images/apt%20update.JPG)
+
+
+*Next Installing apache2 web server 
+
+<code>sudo apt install apache2</code>
+
+![Installing apache2 webserver](./Images/sudo%20install.JPG)
+
+
+*To verify that the apache2 web server is running , run the command below
+
+<code>sudo systemctl status apache2</code>
+
+![Apache2 status](./Images/sudo%20status%20running.JPG)
+
