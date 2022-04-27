@@ -30,7 +30,7 @@ Copyied and pasted code into vsc terminal
 
 ![alt text](./Images/git%20command%20profile%20setup.JPG)
 
-4.Ceated a AWS freetier account, completed the following task. 
+4.Signed up for AWS freetier account and a root user account, logged into AWS Management Console Services ![aws management console](./Images/aws.JPG) 
 
 *Launched an instance -  Using Ubuntu Server 20.04LTS(HVM)
 ![alt text](./Images/Launching%20an%20instance.JPG)
@@ -44,5 +44,6 @@ Copyied and pasted code into vsc terminal
 
 <code>ssh -i "Keypair.pem" ubuntu@ec2-54-147-140-31.compute-1.amazonaws.com</code>
 ![alt text](./Images/instances.JPG)
+
 * Praticed other linux commands, ran the <code> sudo apt get-update</code> to update the OS.
 ![alt text](./Images/Ubuntu%20virtual%20server.JPG)
