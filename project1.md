@@ -186,3 +186,4 @@ I have successfully setup a LAMP stack which is fully operational.
 :white_check_mark:MySQL
 
 :white_check_mark:PHP 
+
