@@ -1,4 +1,6 @@
- ### DOCUMENTATION OF PROJECT - 1
+ ### DOCUMENTATION OF PROJECT - 1: LAMP STACK IMPLEMENTATION
+
+
  ## <center>WEB STACK IMPLEMENTATION (LAMP STACK) IN AWS</center> 
 
 
@@ -186,4 +188,18 @@ I have successfully setup a LAMP stack which is fully operational.
 :white_check_mark:MySQL
 
 :white_check_mark:PHP 
+
+Next is to test my setup with a PHP script by setting up Apache Virtual Host to host my website' files and folders. 
+
+A virtual host allows you to have multiple websites located on a single machine and users of the website wouldn't notice it.
+
+![Apache Virtual server](./Images/apache%20virtual%20server.JPG)
+
+
+
+
+## <center>CREATING A VIRTUAL HOST FOR A WEBSITE USING APACHE</center>
+
+I'm going to setup a domain called ***projectlamp*** , to create the directory projectlamp
+using 'mkdir' command as follows
 
