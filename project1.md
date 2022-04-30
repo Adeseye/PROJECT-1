@@ -139,5 +139,11 @@ Start the interactive script by running:
 
 ![secure installation](./Images/sudeo%20secure.JPG)
 
-You would be prompted to VALIDATE PASSWORD PLUGIN. - Press Y to create a password, for the training purposes I will leave it has default (blank). For Production environment I will set a secure password.
+You would be prompted to VALIDATE PASSWORD PLUGIN. - Press Y to create a password.
+
+![MYSQL password](./Images/MySQL%20secure.JPG)
+
+
+
+
 
