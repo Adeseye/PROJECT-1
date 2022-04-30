@@ -167,3 +167,11 @@ I will need to install 3 PHP packages ; to-do that I will the command
 
 <code>sudo apt install php libapache2-mod-php php-mysql</code>
 
+![PHP install](./Images/php%20install.JPG)
+
+Once installation has completed, to check the PHP version run the command <code>PHP -v</code>
+
+![PHP version installed](./Images/php%20verson.JPG)
+
+
+At the time of this documentation ***PHP version is 7.4.3***
