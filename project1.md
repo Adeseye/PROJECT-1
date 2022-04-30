@@ -178,7 +178,11 @@ At the time of this documentation ***PHP version is 7.4.3***
 
 
 I have successfully setup a LAMP stack which is fully operational.
+
 :white_check_mark: Linux
+
 :white_check_mark:Apache HTTP Server
+
 :white_check_mark:MySQL
+
 :white_check_mark:PHP 
