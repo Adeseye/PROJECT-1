@@ -156,4 +156,14 @@ Run exit command   <code>ext</code>
 ![MySQL login console test](./Images/mysql%20access.JPG)
 
 
+That concludes installing and configuring MySQL.
+
+
+## <center>INSTALLING PHP</center> 
+
+I currently have Apache installed to serve my content, MySQL installed to store and manage my data. PHP is the component of my setup that will process code to display dynamic content to the end user, a PHP module that allows PHP to communicate with MySQL-based databases.
+
+I will need to install 3 PHP packages ; to-do that I will the command 
+
+<code>sudo apt install php libapache2-mod-php php-mysql</code>
 
