@@ -16,7 +16,7 @@
 
 3.Created a new repository 
 
-![Created a respository](./Images/Created%20a%20repository.JPG)
+![Created a repository](./Images/Created%20a%20repository.JPG)
 
 4.Intergrated MS Visual Studio Code with Git Hub using following codes 
 
@@ -32,7 +32,7 @@ Copied and pasted code into vsc terminal
 
 <code>git add .</code>
 
-<code> git commit -m "Writting project-1" </code>
+<code> git commit -m "Writing project-1" </code>
 
 <code>git push</code>
 
@@ -48,12 +48,12 @@ Copied and pasted code into vsc terminal
 
 ![alt text](./Images/Connect%20to%20instance.JPG)
 
-*Connected to Ubuntu Server via Windows Powershell using command
+*Connected to Ubuntu Server via Windows PowerShell using command
 
 <code>ssh -i "Keypair.pem" ubuntu@ec2-54-147-140-31.compute-1.amazonaws.com</code>
 ![alt text](./Images/instances.JPG)
 
-* Practiced other linux commands, ran the <code> sudo apt get-update</code> to update the OS.
+* Practiced other Linux commands, ran the <code> sudo apt get-update</code> to update the OS.
 ![alt text](./Images/Ubuntu%20virtual%20server.JPG)
 
 
@@ -82,7 +82,7 @@ To install Apache web server, open up Terminal and run the following commands ;
 ![Apache2 status](./Images/sudo%20status%20running.JPG)
 
 
-Web Server succssfully launched! :sunglasses:
+Web Server successfully launched! :sunglasses:
 
 To enable Web Server to receive any traffic we need to open port HTTP port 80 by editing inbound rule by clicking on the instance... EC2 --> Security-->sg-0b43ccbb91eb6f08e (instance name) -Firewall security group> edit inbound rules; click Add rule button
 
@@ -107,12 +107,37 @@ This confirms I can access server locally, now time to test my Apache HTTP serve
 
 Which is **54.147.140.31**
 
-Now to verify the Appache server is correctly installed, open a browser type in the Public IP address into the address bar http://54.147.140.31:80
+Now to verify the Apache server is correctly installed, open a browser type in the Public IP address into the address bar http://54.147.140.31:80
 
 
-![My Appache Server](./Images/Apache%20server.JPG)
+![My Apache Server](./Images/Apache%20server.JPG)
 
-This confirms Appache Server running ; correctly installed and can be accessed through my firewall. :thumbsup:
+This confirms Apache Server running ; correctly installed and can be accessed through my firewall. :thumbsup:
 
 
+
+## <center>INSTALLING MYSQL</center>
+
+Now that Apache web server is up and running, now am going to install MySQL server which is a Database Management System (DBMS). This will store and manage data on my website.
+
+On Terminal run the command to install MySQL
+
+<code>sudo apt install MySQL-server</code> and type Yes
+
+![Installing MySQL](./Images/mysql%20install.JPG)
+
+Type Y for yes and hit the enter key install MySQL.
+
+![installed MySQL](./Images/mysql%20installed.JPG)
+
+
+It is recommended you run a security script that comes preinstalled with MySQL, This script will remove some insecure default settings and lock down access to your database system. 
+
+Start the interactive script by running:
+
+<code>sudo mysql_secure_installation</code>
+
+![secure installation](./Images/sudeo%20secure.JPG)
+
+You would be prompted to VALIDATE PASSWORD PLUGIN. - Press Y to create a password, for the training purposes I will leave it has default (blank). For Production environment I will set a secure password.
 
