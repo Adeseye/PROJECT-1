@@ -139,11 +139,21 @@ Start the interactive script by running:
 
 ![secure installation](./Images/sudeo%20secure.JPG)
 
-You would be prompted to VALIDATE PASSWORD PLUGIN. - Press Y to create a password.
+You would be prompted to VALIDATE PASSWORD PLUGIN. - Press Y to create a password. You would be shown password type and strength level, enter a strength level and a password.
 
 ![MYSQL password](./Images/MySQL%20secure.JPG)
 
+Next you would be prompted to remove some anonymous users and the test database, disable remote root logins, and load these new rules so that MySQL immediately respects the changes you have made.
 
+![Remove default access to MySQL Database](./Images/sql%20remove.JPG)
+
+To test I can access or login to the MYSQL console, run the command <code>sudo mysql</code>
+
+
+This confirms am able to access MySQL console, to exit the MySQL console. 
+Run exit command   <code>ext</code>
+
+![MySQL login console test](./Images/mysql%20access.JPG)
 
 
 
