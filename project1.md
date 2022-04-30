@@ -203,3 +203,29 @@ A virtual host allows you to have multiple websites located on a single machine 
 I'm going to setup a domain called ***projectlamp*** , to create the directory projectlamp
 using 'mkdir' command as follows
 
+<code>sudo mkdir /var/www/projectlamp </code>
+
+Next assign ownership of the directory with current system user:
+
+<code> sudo chown -R $USER:$USER /var/www/projectlamp</code>
+
+Then to create and open a new configuration file in Apache's directory using the command line
+
+<code>sudo vi /etc/apache2/sites-available/projectlamp.conf</code>
+
+This will create a new blank file, now paste the following bare bones configuration by hitting i on the keyboard to enter the insert mode and paste the text below
+
+<code>
+
+<VirtualHost *:80>
+    ServerName projectlamp
+    ServerAlias www.projectlamp 
+    ServerAdmin webmaster@localhost
+    DocumentRoot /var/www/projectlamp
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost> 
+
+</code>
+
+![Code](./Images/virtual%20host%20code.JPG)
