@@ -215,9 +215,8 @@ Then to create and open a new configuration file in Apache's directory using the
 
 This will create a new blank file, now paste the following bare bones configuration by hitting i on the keyboard to enter the insert mode and paste the text below
 
-<code>
-
 <VirtualHost *:80>
+
     ServerName projectlamp
     ServerAlias www.projectlamp 
     ServerAdmin webmaster@localhost
@@ -226,6 +225,35 @@ This will create a new blank file, now paste the following bare bones configurat
     CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost> 
 
-</code>
+To save and close the file, simply follow the steps below:
+
+Hit the esc button on the keyboard
+
+Type :
+
+Type wq. w for write and q for quit
+
+Hit ENTER to save the file
+
 
 ![Code](./Images/virtual%20host%20code.JPG)
+
+To confirm it created directory successfully run the command; 
+
+<code>sudo ls /etc/apache2/sites-available</code>
+
+
+A file called 000-default.conf  default-ssl.conf  projectlamp.conf would be listed
+
+![Directory](./Images/directory.JPG)
+
+The file ***000-default.conf  default-ssl.conf  projectlamp.conf*** is the virtual host configuration,  this will enable Apache to serve projectlamp using /var/www/projectlampl as its web root directory. 
+
+Now to enable the virtual host using a2enite command ;
+
+<code>sudo a2dissite 000-default</code>
+
+![a2dissite](./Images/sudo%20a2nite.JPG)
+
+To make sure your configuration file doesn’t contain syntax errors, run
+
