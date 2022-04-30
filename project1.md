@@ -257,8 +257,12 @@ Finally, reload Apache so these changes take effect:
 
 <code>sudo systemctl reload apache2</code>
 
-Now go to your browser and try to open your website URL using IP address: using public address or public DNS.
+Now the website is now active , but the web root ***/var/www/projectlamp*** is still empty. I'm going to create an index.html in the location so confirm that the virtual host works.
 
-To view the landing page (Index.html)
+<code>sudo echo 'Hello LAMP from hostname' $(curl -s http://169.254.169.254/latest/meta-data/public-hostname) 'with public IP' $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4) > /var/www/projectlamp/index.html </code>
+
+![Sudo Eco](./Images/code%20index%20pages.JPG)
+
+Now open a browser and open website URL using IP address: using public address or public DNS. To view the landing page (Index.html)
 
 ![Website landing page](./Images/index.JPG)
