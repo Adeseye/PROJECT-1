@@ -249,3 +249,16 @@ Now to enable the virtual host using a2enite command ;
 
 To make sure your configuration file doesn’t contain syntax errors, run
 
+<code>sudo apache2ctl configtest</code>
+
+![Syntax error check](./Images/syntax%20error%20check.JPG)
+
+Finally, reload Apache so these changes take effect:
+
+<code>sudo systemctl reload apache2</code>
+
+Now go to your browser and try to open your website URL using IP address: using public address or public DNS.
+
+To view the landing page (Index.html)
+
+![Website landing page](./Images/index.JPG)
