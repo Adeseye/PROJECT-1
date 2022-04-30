@@ -215,15 +215,7 @@ Then to create and open a new configuration file in Apache's directory using the
 
 This will create a new blank file, now paste the following bare bones configuration by hitting i on the keyboard to enter the insert mode and paste the text below
 
-<VirtualHost *:80>
-
-    ServerName projectlamp
-    ServerAlias www.projectlamp 
-    ServerAdmin webmaster@localhost
-    DocumentRoot /var/www/projectlamp
-    ErrorLog ${APACHE_LOG_DIR}/error.log
-    CustomLog ${APACHE_LOG_DIR}/access.log combined
-</VirtualHost> 
+![Code](./Images/virtual%20code.JPG)
 
 To save and close the file, simply follow the steps below:
 
@@ -231,12 +223,12 @@ Hit the esc button on the keyboard
 
 Type :
 
-Type wq. w for write and q for quit
+Type wq. w (for 'write'and 'q'' for quit)
 
-Hit ENTER to save the file
+Hit Enter key to save the file
 
 
-![Code](./Images/virtual%20host%20code.JPG)
+![Code](./Images/virtual%20host.JPG)
 
 To confirm it created directory successfully run the command; 
 
