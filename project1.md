@@ -4,23 +4,32 @@
  ## <center>WEB STACK IMPLEMENTATION (LAMP STACK) IN AWS</center> 
 
 
-1.Installed the following applications:
+<ol>
+  <li>Git Hub Account</li>
+  <li>AWS Free tier Account</li>
+  <li>Git</li>
+  <li>Windows Terminal </li>
+  <li>Microsoft Visual Code</Li>
+  </ol>
+
+Download links:
 
 *Microsoft Visual Studio Code  [Download](https://code.visualstudio.com/download)
 
-*git  [Download](https://git-scm.com/downloads)
+*Git  [Download](https://git-scm.com/downloads)
 
 
 *Windows Terminal [Download](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-gb&gl=GB)
 
-2.Created a Git Hub account, updated profile
+1.Created a Git account, updated profile
 ![git profile](./Images/updated%20github%20profile.JPG)
 
-3.Created a new repository 
+2.Created a new repository 
+
 
 ![Created a repository](./Images/Created%20a%20repository.JPG)
 
-4.Intergrated MS Visual Studio Code with Git Hub using following codes 
+3.Intergrated MS Visual Studio Code with Git Hub using following codes 
 
 <code>git clone git@github.com:Adeseye/PROJECT-1.git</code>
 
@@ -30,7 +39,7 @@ Copied and pasted code into vsc terminal
 
 ![alt text](./Images/git%20code.JPG)
 
-5.Configured Git hub account with MS VSC via Terminal - using the following commands in VSC terminal :
+4.Configured Git hub account with MS VSC via Terminal - using the following commands in VSC terminal :
 
 <code>git add .</code>
 
@@ -40,7 +49,7 @@ Copied and pasted code into vsc terminal
 
 ![alt text](./Images/git%20command%20profile%20setup.JPG)
 
-4.Signed up for AWS freetier account and a root user account, logged into AWS Management Console Services ![aws management console](./Images/aws.JPG) 
+5.Signed up for AWS free tier account, created IAM & a root user account. logged into AWS Management Console Services ![aws management console](./Images/aws.JPG) 
 
 *Launched an instance -  Using Ubuntu Server 20.04LTS(HVM)
 ![alt text](./Images/Launching%20an%20instance.JPG)
@@ -285,4 +294,4 @@ Its best practice to remove such sensitive information about your PHP environmen
 
 This is the end of this project, I have fully successfully deployed LAMP stack website in AWS Cloud.
 
-END
+-END-
