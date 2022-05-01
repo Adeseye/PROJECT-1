@@ -266,3 +266,23 @@ Now the website is now active , but the web root ***/var/www/projectlamp*** is s
 Now open a browser and open website URL using IP address: using public address or public DNS. To view the landing page (Index.html)
 
 ![Website landing page](./Images/index.JPG)
+
+
+## <center>ENABLE PHP FOR WEBSITE</center>
+
+Create a new file named index.php inside your custom web root folder: using VIM.
+
+<code> vim /var/www/projectlamp/index.php </code>
+
+
+This will open a blank file. Add the following text, which is valid PHP code, inside the file:
+
+![alt text](./Images/php.JPG)
+
+Write and exit with vim with the command <code>wq</code> , now reload the website which is (http://54.167.65.122:80)
+
+This is the result of the changes:-
+
+![alt text](./Images/php%20version.JPG)
+
+
