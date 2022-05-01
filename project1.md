@@ -179,22 +179,11 @@ Once installation has completed, to check the PHP version run the command <code>
 At the time of this documentation ***PHP version is 7.4.3***
 
 
-I have successfully setup a LAMP stack which is fully operational.
-
-:white_check_mark: Linux
-
-:white_check_mark:Apache HTTP Server
-
-:white_check_mark:MySQL
-
-:white_check_mark:PHP 
-
 Next is to test my setup with a PHP script by setting up Apache Virtual Host to host my website' files and folders. 
 
 A virtual host allows you to have multiple websites located on a single machine and users of the website wouldn't notice it.
 
 ![Apache Virtual server](./Images/apache%20virtual%20server.JPG)
-
 
 
 
@@ -286,3 +275,14 @@ This is the result of the changes:-
 ![alt text](./Images/php%20version.JPG)
 
 
+This page provides information about your server from the perspective of PHP. It is useful for debugging and to ensure that your settings are being applied correctly.
+
+This page confirms PHP installation is working as expected.
+
+Its best practice to remove such sensitive information about your PHP environment -and your Ubuntu server. I will remove this page using  'rm' to do so:
+
+<code>sudo rm /var/www/projectlamp/index.php</code>
+
+This is the end of this project, I have fully successfully deployed LAMP stack website in AWS Cloud.
+
+END
