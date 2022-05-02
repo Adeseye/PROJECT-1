@@ -3,13 +3,14 @@
 
  ## <center>WEB STACK IMPLEMENTATION (LAMP STACK) IN AWS</center> 
 
-
+To deploy LAMP stack the following will be needed:
 <ol>
   <li>Git Hub Account</li>
   <li>AWS Free tier Account</li>
   <li>Git</li>
   <li>Windows Terminal </li>
   <li>Microsoft Visual Code</Li>
+  <li>Open SSH</li>
   </ol>
 
 Download links:
