@@ -22,10 +22,47 @@ Download links:
 
 *Windows Terminal [Download](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-gb&gl=GB)
 
-1.Created a Git account, updated profile
+******************************************************************************************
+
+First I'm going to install OpenSSH for Windows Operating system ;
+
+Installing OpenSSH [Instructions](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
+
+Next generate ssh-key [Instructions](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement)
+
+
+
+
+
+
+Created a Git account, updated profile
 ![git profile](./Images/updated%20github%20profile.JPG)
 
-2.Created a new repository 
+The next step is to link Git account with OpenSSH Terminal
+
+Go to settings > SSH and GPG Keys
+
+![Settings](./Images/github.JPG)
+
+Click on New SSH Keys
+
+![alt text](./Images/github2.JPG)
+
+Give SHH Keys a title, copy and paste key generated from SSH earlier on. Then click Add SSH key button to save.
+
+![alt text](./Images/github3.JPG)
+
+Next scroll down to and click on Developer settings> Personal access tokens > Generate new token
+
+![alt text](./Images/github4.JPG)
+
+Give note for what the token is for and select all required scope needed, click on generate token and save it.
+
+![alt text](./Images/github5.JPG)
+
+
+
+2.Create a new repository 
 
 
 ![Created a repository](./Images/Created%20a%20repository.JPG)
