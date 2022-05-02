@@ -67,7 +67,7 @@ Give note for what the token is for and select all required scope needed, click 
 
 ![Created a repository](./Images/Created%20a%20repository.JPG)
 
-3.Intergrated MS Visual Studio Code with Git Hub using following codes 
+Now to link MS Visual Studio Code with Git Hub using following codes on terminal
 
 <code>git clone git@github.com:Adeseye/PROJECT-1.git</code>
 
@@ -77,7 +77,7 @@ Copied and pasted code into vsc terminal
 
 ![alt text](./Images/git%20code.JPG)
 
-4.Configured Git hub account with MS VSC via Terminal - using the following commands in VSC terminal :
+Configured Git hub account with MS VSC via Terminal - using the following commands in VSC terminal :
 
 <code>git add .</code>
 
